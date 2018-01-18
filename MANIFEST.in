@@ -1,2 +1,2 @@
 include README.rst LICENSE
-recursive-include allauth_bootstrap
+recursive-include allauth_bootstrap4 *.*

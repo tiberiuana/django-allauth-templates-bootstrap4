@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 METADATA = {
   "name": 'django-allauth-templates-bootstrap4',
-  "version": "0.34.3",
+  "version": "0.34.9",
   "author": "Tiberiu Ana",
   "author_email": "tiberiu@tiberiuana.com",
   "description": "Bootstrap4 template pack for django-allauth",
@@ -11,6 +11,7 @@ METADATA = {
   "install_requires": [
     "django-allauth >= 0.34.0"
   ],
+  "packages": find_packages(),
   "license": "MIT",
   "classifiers": [
     'Development Status :: 4 - Beta',
