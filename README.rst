@@ -2,7 +2,10 @@
 django-allauth-helper
 ==========================
 
-Template pack for django-allauth using Bootstrap 4.
+Template pack for django-allauth_ using `Bootstrap 4`_.
+
+.. _django-allauth: https://github.com/pennersr/django-allauth
+.. _`Bootstrap 4`: http://getbootstrap.com/
 
 Installation
 ==============
