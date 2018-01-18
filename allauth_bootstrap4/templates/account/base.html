@@ -13,21 +13,13 @@
 
   <title>{% block head_title %}{% endblock %}</title>
 
-  {% block bootstrap %}
-    <link href="{% static 'allauth_helper/bootstrap4/css/bootstrap.css' %}" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="{% static 'allauth_helper/lib/html5shiv.js' %}"></script>
-    <script src="{% static 'allauth_helper/lib/respond.min.js' %}"></script>
-<![endif]-->
-  {% endblock %}
+  {% include 'account/parts/bootstrap.html' %}
 
   {% block custom_css %}
     <link href="{% static 'allauth_helper/app.css' %}" rel="stylesheet">
   {% endblock %}
 
-  {% block head %}
-  {% endblock %}
+  {% include 'account/parts/head.html' %}
 </head>
 
 <body>

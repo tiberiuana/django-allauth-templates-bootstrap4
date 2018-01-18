@@ -5,18 +5,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 offset-md-3">
-        {% block header %}
-          <header>
-            {% comment %}
 
-            This header appears above the page card for allauth views
-            It should include the site name and/or logo.
+        <header>
+        {% include 'account/parts/header.html' %}
+        </header>
 
-            <img src="{% static 'img/logo.png' %}" alt="Logo" />
-
-            {% endcomment %}
-          </header>
-        {% endblock %}
         <div class="card">
           <div class="card-body">
 
