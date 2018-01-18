@@ -2,7 +2,7 @@ from setuptools import setup
 
 METADATA = {
   "name": 'django-allauth-templates-bootstrap4',
-  "version": "0.34.1",
+  "version": "0.34.2",
   "author": "Tiberiu Ana",
   "author_email": "tiberiu@tiberiuana.com",
   "description": "Bootstrap4 template pack for django-allauth",
