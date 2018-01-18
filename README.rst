@@ -12,15 +12,16 @@ Installation
 
 After successfully installing and configuring django-allauth, add `allauth_bootstrap4` to your `INSTALLED_APPS` *above* `allauth`.
 
-The template pack does *not* distribute Bootstrap, instead it expects a Bootstrap 4 build in `STATIC_DIR/bootstrap/`. 
+The template pack uses the Bootstrap CDN. To customize the stylesheet links, see Customization_.
 
+.. _Customization:
 Customization
 ==============
 
-Change Bootstrap links 
+Changing Bootstrap links 
 -----------------------
 TODO `account/parts/bootstrap.html`
 
-Customize page headers
+Customizing page headers
 ------------------------
 TODO `account/parts/header.html`
